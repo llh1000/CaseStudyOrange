@@ -1,7 +1,8 @@
 ---
 title: "Orange Tree Study"
-author: "Laurie Harris"
-date: "April 13, 2017"
+title2: "MSDS 6303 Case Study 2 Question 2"
+author: "Joseph Denney, Timothy McWilliams and Laurie Harris"
+date: "April 24, 2017"
 output: html_document
 ---
 
