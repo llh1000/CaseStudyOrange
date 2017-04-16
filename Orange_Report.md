@@ -29,13 +29,37 @@ attach (orange)
 ```
 
 ```
-## The following objects are masked from orange (pos = 7):
+## The following objects are masked from orange (pos = 3):
+## 
+##     age, circumference, Tree
+```
+
+```
+## The following objects are masked from orange (pos = 4):
+## 
+##     age, circumference, Tree
+```
+
+```
+## The following objects are masked from orange (pos = 5):
+## 
+##     age, circumference, Tree
+```
+
+```
+## The following objects are masked from orange (pos = 6):
+## 
+##     age, circumference, Tree
+```
+
+```
+## The following objects are masked from orange (pos = 11):
 ## 
 ##     age, circumference, Tree
 ```
 
 ##Data Analysis
-We would like to understand more about the circumferences of each tree therefore we will compute the mean and median circumferences from the measurement data.
+We would like to understand more about the circumferences of each tree therefore we will compute the mean and median circumferences from the measurement data. The table below shows the mean and median measurments for each of the five orange trees.
 
 ```r
 #Calculate mean and median of the trunk circumferences by Tree
@@ -73,7 +97,7 @@ pander(meanmed)
 ----------------------
 
 ##Graphical Examination
-To demonstrate the differences in circumferences over the timeframe, we will present two plots that show the data for each tree.  The first plot shows the circumference change over time for each tree.  The second plot shows the range of circumference change as separate boxplots for each tree.  
+To demonstrate the differences in circumferences over the timeframe, we will present two plots that show the data for each tree.  The first plot shows the circumference measurements related to age for each tree.  The second plot shows the range of circumference measurements as separate boxplots for each tree.  
 
 ```r
 #Create plots
@@ -97,4 +121,4 @@ box
 ![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-2.png)
 
 ##Conclusion
-In each of the displays, we notice that tree number 4 has the highest mean and median circumferences and tree number 3 has the lowest mean and median circumferences.  The range circumferences of trees 1 and 3 appear to be similar, on a smaller scale, while trees 2 and 4 appear to share similar, larger circumference ranges.
+From the analysis, we notice that although each tree begins with a similar circumference measurement, tree number 4 has the highest circumferences over the time period and tree number 3 has the lowest measurements.  The range circumferences of trees 1 and 3 appear to be similar, on a smaller scale, while trees 2 and 4 appear to share similar, larger circumference ranges.
